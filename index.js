@@ -356,32 +356,59 @@
 //   console.log("Өндөр жил биш")
 // }
 // ===================================================================
-const elapsed = Date.now(1970);
-console.log(elapsed)
+// const elapsed = Date.now();
+// console.log(elapsed);
 
-const msPerYear = 1000 * 60 * 60 * 60 * 24 * 30 * 12;
-const msPerMonth = 1000 * 60 * 60 * 60 * 24 * 30;
-const msPerDay = 1000 * 60 * 60 * 60 * 24;
-const msPerHour = 1000 * 60 * 60 * 60;
-const msPerMin = 1000 * 60 * 60;
-const msPerSec = 1000 * 60;
-const msPerDoil = 10;
-let uldegdel = elapsed;
+// const msPerYear = 1000 * 60 * 60 * 24 * 30 * 12;
+// const msPerMonth = 1000 * 60 * 60 * 24 * 30;
+// const msPerDay = 1000 * 60 * 60 * 24;
+// const msPerHour = 1000 * 60 * 60;
+// const msPerMin = 1000 * 60;
+// const msPerSec = 1000 ;
+// const msPerDoil = 10;
+// let uldegdel = elapsed;
 
-const year = Math.trunc(uldegdel / msPerYear);  
-let uldegdel %=  
-const month = Math.trunc(uldegdel / msPerMonth);
-let uldegdel %=  
-const day = Math.trunc(uldegdel / msPerDay);
-let uldegdel %=  
-const hour = Math.trunc(uldegdel / msPerHour);
-let uldegdel %=  
-const min = Math.trunc(uldegdel / msPerMin);
-let uldegdel %=  
-const sec = Math.trunc(uldegdel / msPerSec);
-let uldegdel %=  
-const doil = Math.trunc(uldegdel / msPerDoil);
-let uldegdel %=  
+// const year = Math.trunc(uldegdel / msPerYear);  
+// uldegdel %= msPerYear;
+// const month = Math.trunc(uldegdel / msPerMonth);
+// uldegdel %=  msPerMonth;
+// const day = Math.trunc(uldegdel / msPerDay);
+// uldegdel %= msPerDay;
+// const hour = Math.trunc(uldegdel / msPerHour);
+// uldegdel %=  msPerHour;
+// const min = Math.trunc(uldegdel / msPerMin);
+// uldegdel %=  msPerMin;
+// const sec = Math.trunc(uldegdel / msPerSec);
+// uldegdel %= msPerSec;
+// const doil = Math.trunc(uldegdel / msPerDoil);
+// uldegdel %=  msPerDoil;
+
+// console.log(`${year} жил, ${month} сар, ${day} өдөр, ${hour} цаг, ${min} минут, ${sec} секунд, ${doil} дойл, ${uldegdel} миллисекунд`);
 // ===================================================================
-
+// const a = 7;
+// const b = 4;
+// const c = -8;
+// if (a < b && a < c) {
+//   console.log(a);
+// } else if (b < a && b < c) {
+//   console.log(b);
+// } else {
+//   console.log(c);
+// } 
 // ===================================================================
+// const a = 100;
+// const b = 47;
+// const c = 88;
+// if (a > b && a > c && b < c) {
+//   console.log(a - b);
+// } else if (a > b && a > c && b > c) {
+//   console.log(a - c);
+// } else if (b > a && b > c && a > c) {
+//   console.log(b - c);
+// } else if (b > a && b > c && a < c) {
+//   console.log(b - a);
+// } else if (c > a && c > b && a < b) {
+//   console.log(c - a);
+// } else {
+//   console.log(c - b);
+// }
