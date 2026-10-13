@@ -357,7 +357,6 @@
 // }
 // ===================================================================
 // const elapsed = Date.now();
-// console.log(elapsed);
 
 // const msPerYear = 1000 * 60 * 60 * 24 * 30 * 12;
 // const msPerMonth = 1000 * 60 * 60 * 24 * 30;
